@@ -110,9 +110,9 @@ class App extends Component<AppProps, AppState> {
             <div id="grandparent" onClickCapture={this.handleClickCapture}>
               <Navigation {...childProps} />
               <Switch>
-                <Route path='/app' exact={true} component={WheelTable} />
-                <Route path='/app/wheel/:wheel_id' exact={true} component={Wheel} />
-                <Route path='/app/wheel/:wheel_id/participant' exact={true} component={ParticipantTable} />
+                <Route path='/' exact={true} component={WheelTable} />
+                <Route path='/wheel/:wheel_id' exact={true} component={Wheel} />
+                <Route path='/wheel/:wheel_id/participant' exact={true} component={ParticipantTable} />
                 <Route component={NotFound} />
               </Switch>
             </div>

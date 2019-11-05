@@ -5,6 +5,7 @@
 /ui/flow-typed
 /ui/development_app_location.js
 /ui/.nyc_output
+/api/.coverage
 /deploy
 .env
 .venv
